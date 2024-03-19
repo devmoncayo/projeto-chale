@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional</title>
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/components/button.css">
+
+    <!-- Roda as novas html5 em navegadores que não o suportam -->
+    <!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="container"> <!--Inicio container-->
+        <header> <!--Inicio header-->
+            <div id="logo">
+                <a href="">     
+                    <img id="imagem-logo" src="imagens/logo.png" alt="">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">exposições</a></li>
+                    <li><a href="">pesquisa</a></li>
+                    <li><a href="">acervo</a></li>
+                    <li><a href="">fotos</a></li>
+                    <li><a href="">contatos</a></li>
+                </ul>
+            </nav>
+        </header> <!--Fim header-->
+        <div id="content"> <!--Inicio content-->
+            <div id="principal">
+                <section id="museu">
+                    <img src="imagens/museu.png" alt="">
+                </section>
+                <section id="postagens">
+                    <section id="video-visita">
+                        <h3>video: conheça o museu</h3>
+                        <iframe width="300" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc?si=god5RkVWJq3_7Rxl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </section>
+                    <section id="mapa-museu">
+                        <h3>mapa: museu nacional</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206445750082!2d-43.229103825416225!3d-22.90575503783275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1709497021380!5m2!1spt-BR!2sbr" width="300" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </section>
+                    <section id="exposicoes">
+                        <h3>exposicoes</h3>
+                        <ul>
+                            <li><a href="">Os assustadores insetos</a</li>
+                            <li><a href="">A múmia e suas mocas nojentas e periculosas</a</li>
+                            <li><a href="">O gafanhoto que matou o rei e a amante</a</li>
+                            <li><a href="">A pirâmide de papelão pintada de ouro</a</li>
+                            <li><a href="">As tranças do rei Usias e o apagamento do machismo</a</li>
+                            <li><a href="">Os olhos do cego da aldeia</a></li>
+                        </ul>
+                    </section>
+                    <section id="anos">
+                        <h3>200 anos de história</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ea, veritatis laudantium magni debitis corrupti modi fugiat animi alias dolores doloremque a expedita repellendus perspiciatis labore odit praesentium optio! Porro.</p>
+                        <a href="">Leia mais</a>
+                    </section>
+                </section>
+            </div>
+            <aside>
+                <section id="sobre-museu">
+                    <img src="imagens/depoimento.png" alt="">
+                </section>
+                <section id="visita">
+                    <form action="">
+                        <h3>Faça uma visita</h3>
+                        <label for="data">Data</label>
+                        <input class="botao" type="date" name="data" id="data">
+
+                        <label for="">Qtd pessoas</label>
+                        <input class="botao" type="number" min="1" max="5" >
+
+                        <input id="button-ver" type="submit" value="Verificar disponibilidade">
+                    </form>
+                </section>
+                <section id="galeria">
+                    <h3>Galeria de fotos</h3>
+                    <div><a href=""><img src="imagens/imagem1.jpg" alt=""></a></div>
+                    <div><a href=""><img src="imagens/imagem2.jpg" alt=""></a></div>
+                    <div><a href=""><img src="imagens/imagem3.jpg" alt=""></a></div>
+                    <div><a href=""><img src="imagens/imagem4.jpg" alt=""></a></div>
+                </section>
+            </aside>
+        </div> <!--Fim content-->
+        <footer>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Exposições</a></li>
+                <li><a href="">Pesquisa</a></li>
+                <li><a href="">Acervo</a></li>
+                <li><a href="">Videos</a></li>
+                <li><a href="">Fotos</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+            <ul id="direitos">
+                <li>2019</li>
+                <li><a href="">Museu Nacional</a></li>
+                <li>Todos os direitos reservados</li>
+            </ul>
+        </footer>
+    </div> <!-- Fim container-->
+</body>
+</html>

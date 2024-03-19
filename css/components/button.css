@@ -1,0 +1,15 @@
+#button-ver{
+    cursor: pointer;
+    width: 270px;
+    height: 40px;
+    margin: 10px 20px;
+    padding: 0;
+    background-color: #9D9175;
+    color: white;
+    text-align: center;
+}
+/* Input data e qtd pessoas */
+.botao{
+    padding: 5px;
+    border-radius: 5px;
+}
